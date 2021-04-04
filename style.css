@@ -20,14 +20,31 @@
 }
 
 #logo{
-position: fixed;
-top: 2;
-width: 100px;
-height: 48px;
-}
+  position: fixed;
+  top: 2;
+  width: 100px;
+  height: 48px;
+  }
 
 img{
   width: 100px;
   height: 48px;
 }
 
+.Portrait_Images {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+
+.Landscape_Images{
+  float: left;
+  width: 23.5%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
