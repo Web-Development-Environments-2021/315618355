@@ -2,29 +2,20 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<script src="https://cdn.tiny.cloud/1/zvcco925gs2y9jzcizowjwronxx32co5hc9p7kx1nxrkevph/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 
 <script>
   tinymce.init({
-    selector: "#mytextarea",
+    selector: "#message",
     plugins: "emoticons",
     toolbar: "emoticons",
     toolbar_location: "bottom",
     menubar: false
   });
 </script>
-<script src="https://cdn.tiny.cloud/1/zvcco925gs2y9jzcizowjwronxx32co5hc9p7kx1nxrkevph/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<body dir="rtl" style="background-color:rgb(217, 228, 235);"></body>
 </head>
 <body>
-
-<script>
-    tinymce.init({
-      selector: "#mytextarea",
-      plugins: "emoticons",
-      toolbar: "emoticons",
-      toolbar_location: "bottom",
-      menubar: false
-    });
-</script>
 
 <div class="toolbar">
 <a href="#contact">Contact Me</a>
@@ -43,17 +34,6 @@
 
 
 <section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -182,7 +162,11 @@
 <br/>
 <br/>
 <br/>
-<b>Give me a like</b>
+<p align=center>
+  <b>Like</b>
+</br>
+<p align=right>אם אהבתם את האתר אשמח שתשימו לייק</p>
+</p>
 <br/>
 <br/>
 <div class="fb-like" data-href="https://git.io/JYDM1" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
@@ -205,12 +189,10 @@
 <br/>
 <br/>
 <p align=center>
-  <b>QR code</b>
+  <b>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------QR code---------------------------------------------------------------------------------------------------------------------------------------------------------------------------</b>
 </p>
 <br/>
-<br/>
-Please scan this code:
-<br/>
+<p align=right>סרקו את הקוד</p>
 <br/>
 <img src="ORcode.JPG" style="width: 100px;height: 100px;">
 <br/>
@@ -222,18 +204,9 @@ Please scan this code:
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-Ans
+<p align=center>
+  <b>Answers</b>
+</p>
 <br/>
 <br/>
 <br/>
@@ -263,32 +236,25 @@ Ans
 <br/>
 <p align=right> .ניתן ליצור קשר בעזרת מייל. אנא הכניסו את המייל ותוכן ההודעה ולבסוף לחצו על שלח. <br> .ניתן גם להוסיף אימוג'י
 </p>
-<br/>
-<form action="mailto:yaelkot@post.bgu.ac.il" method="post" enctype="text/plain">
-  <p>
-    <label>Email: 
-      <input type="email" id="email" placeholder="name@domain.com">
-    </label>
-  </p>
-  <p>
-    <label>Message:
-      <input type="text" id="message" placeholder="enter your text here " data-emoji-picker="true">
-    </label>
-  </p>
-  <p>
+<form action="mailto:yaelkot@post.bgu.ac.il" method="POST" enctype="text/plain">
+  <div align=right>
+    <br>
+    <label align=right>:אימייל</label>
+    <br>
+    <input type="email" id="email" placeholder="name@domain.com">
+  </div>
+  <br>
+  <div align=right>
+    <label>:הודעה</label>
+    <br>
+    <textarea id = "message" name="message's text" placeholder="הכנס את תוכן ההודעה כאן" rows = "10" cols = "100" data-emoji-picker="true"></textarea>
+  </div>
+  <div>
     <input type="submit" value="Send">
     <input type="reset" value="Clear">
-  </p>
+  </div>
 </form>
 </a>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
 </section>
 
@@ -311,8 +277,6 @@ $(function(){
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v10.0" nonce="EFHyZ1xX">
 </script> 
-
-
 
 </body>
 </html>
