@@ -48,3 +48,9 @@ img{
   clear: both;
   display: table;
 }
+
+#playlist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
