@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<script src="https://cdn.tiny.cloud/1/zvcco925gs2y9jzcizowjwronxx32co5hc9p7kx1nxrkevph/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.tiny.cloud/1/zvcco925gs2y9jzcizowjwronxx32co5hc9p7kx1nxrkevph/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 
-<script>
-  tinymce.init({
-    selector: "#message",
-    plugins: "emoticons",
-    toolbar: "emoticons",
-    toolbar_location: "bottom",
-    menubar: false
-  });
-</script>
-<body dir="rtl" style="background-color:rgb(217, 228, 235);"></body>
+  <script>
+    tinymce.init({
+      selector: "#message",
+      plugins: "emoticons",
+      toolbar: "emoticons",
+      toolbar_location: "bottom",
+      menubar: false
+    });
+  </script>
+  <meta charset="utf-8">
 </head>
-<body>
+<body dir="rtl" style="background-color:rgb(217, 228, 235);">
 
 <div class="toolbar">
 <a href="#contact">Contact Me</a>
@@ -25,13 +26,9 @@
 <a href="#playlist">My Playlist</a>
 <a href="#photos">My Photos</a>
 <a href="#about">About Me</a>
+
+<img src='logo .JPG' alt='Official logo' style="height: 50px; float: left;"> 
 </div>
-
-<div id="logo"> 
-  <a href='logo'> 
-    <img src='logo .JPG' alt='Official logo'> 
-  </a> </div>
-
 
 <section id="about" class="section">
 <br/>
@@ -39,15 +36,23 @@
 <br/>
 <br/>
 <br/>
-<center>
-  <p>
+<br/>
+<br/>
+<br/>
+<center style="background-color: rgb(184, 204, 216); width: 100%; height: 20px;">
     <b>About me</b>
   </p>
  </center>
  <br/>
-<right>
-  <p align=right>.קוראים לי צ'ילה קוסטנוביץ, אני בת 84 ומתגוורת בערד, ישראל. נולדתי בשנת 37 בברית המועצות לשעבר איפה שכעת בלרוס שוכנת </p>
-</right>
+ <br/>
+  <p align=center> 
+    קוראים לי צ'ילה קוסטנוביץ, אני בת 84 ומתגוררת בערד, ישראל.
+     נולדתי בשנת 37 בברית המועצות לשעבר איפה שבלארוס שוכנת כעת. 
+     <br> למדתי בבית הספר ואחרי סיום הלימודים הלכתי ללמוד הוראה. בעיקר חינכתי והייתי מורה למתמטיקה לתלמידי בית ספר יסודי. 
+     <br>בשנת 1990 עליתי לארץ ומאז אני מתגוררת בערד. 
+     במהלך חיי נהייתי אמא לשני ילדים מקסימים, יש לי 4 נכדים ואפילו כבר נינה. <br> 
+    בזמני הפנויה אני אוהבת לעסוק ברקמה, לראות טלוויזיה ,לקרוא ספרים ובעיקר לבלות עם המשפחה.
+    </p>
 <br/>
 <br/>
 <br/>
@@ -60,53 +65,57 @@
 <br/>
 <br/>
 <br/>
-<p align=center>
+<br/>
+<br/>
+<p align=center style="background-color: rgb(184, 204, 216); width: 100%; height: 20px;">
   <b>My photos</b>
 </p>
 <br/>
 <br/>
-<p align=right>:הנה מספר תמונות מהילדות ועד היום</p>
-
+<p align=right>הנה מספר תמונות מהילדות ועד היום:</p>
+<br/>
 <div class="row">
   <div class="Portrait_Images">
-    <img src="As_Child.JPG" alt="Child" style="width: 140px; height: 200px;">
+    <img class="q" src="As_Child.JPG" alt="Child">
   </div>
   <div class="Portrait_Images">
-    <img src="As_Teenage.JPG" alt="Teenage" style="width:140px; height: 200px;">
+    <img class="q" src="As_Teenage.JPG" alt="Teenage">
   </div>
   <div class="Portrait_Images">
-    <img src="As_Young_Wommen.JPG" alt="Young_Wommen" style="width: 140px; height: 200px;">
+    <img class="q" src="As_Young_Wommen.JPG" alt="Young_Wommen">
   </div>
   <div class="Landscape_Images">
-    <img src="Young_Childs.JPG" alt="Young_Childs" style="width: 320px; height: 200px;">
+    <img class="q" src="Young_Childs.JPG" alt="Young_Childs">
   </div>
   <div class="Landscape_Images">
-    <img src="Teenage_childs.JPG" alt="Teenage_childs" style="width: 320px; height: 200px;">
+    <img class="q" src="Teenage_childs.JPG" alt="Teenage_childs">
   </div>
 </div>
 
 <div class="row">
   <div class="Portrait_Images">
-    <img src="Marina's_Wedding.JPG" alt="Marina_Wedding" style="width: 140px; height: 200px;">
+    <img class="q" src="Marina's_Wedding.JPG" alt="Marina_Wedding">
   </div>
   <div class="Landscape_Images">
-    <img src="Birthday.JPG" alt="Birthday" style="width: 320px; height: 200px;">
+    <img class="q" src="Birthday.JPG" alt="Birthday">
   </div>
   <div class="Landscape_Images">
-    <img src="Tour.JPG" alt="Tour" style="width: 320px; height: 200px;">
+    <img class="q" src="Tour.JPG" alt="Tour">
   </div>
   <div class="Portrait_Images">
-    <img src="Rachel's_Wedding.JPG" alt="Rachel_Wedding" style="width: 140px; height: 200px;">
+    <img class="q" src="Rachel's_Wedding.JPG" alt="Rachel_Wedding">
   </div>
-  <div class="Landscape_Images">
-    <img src="Rachel'sWedding.JPG" alt="RachelWedding" style="width: 320px; height: 200px;">
-  </div>
+</div>
+
   <div class="row">
     <div class="Landscape_Images">
-      <img src="Marina's_Birthday_2016.JPG" alt="MarinaBirthday" style="width: 340px; height: 200px;">
+      <img class="q" src="Rachel'sWedding.JPG" alt="RachelWedding">
     </div>
     <div class="Landscape_Images">
-      <img src="Grandma's_2021_Birthday.JPG" alt="GrandmaBirthday" style="width: 309px; height: 200px;">
+      <img class="q" src="Marina's_Birthday_2016.JPG" alt="MarinaBirthday">
+    </div>
+    <div class="Landscape_Images">
+      <img class="q" src="Grandma's_2021_Birthday.JPG" alt="GrandmaBirthday">
     </div>
   </div>
 
@@ -123,21 +132,13 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<p align=center>
+<p align=center style="background-color: rgb(184, 204, 216); width: 100%; height: 20px;">
   <b>My Playlist</b>
 </p>
-</  br>
+<br/>
 <p align=right>
    זהו וידאו של השיר האהוב עלי ששמו בתרגום לעברית הוא עלים צהובים המבוצע על-ידי לאימה ואיקולה ואיוורס קלנינש,
-   .צפייה מהנה
+   צפייה מהנה.
 </p>
 <br/>
 <br/>
@@ -154,22 +155,14 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<p align=center>
+<p align=center style="background-color: rgb(184, 204, 216); width: 100%; height: 20px;">
   <b>Like</b>
-</br>
-<p align=right>אם אהבתם את האתר אשמח שתשימו לייק</p>
+<br/>
+<br/>
+<p align=right>אם אהבתם את האתר אשמח שתתנו לייק</p>
 </p>
 <br/>
-<br/>
-<div class="fb-like" data-href="https://git.io/JYDM1" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
+<div class="fb-like" data-href="https://git.io/JYDM1" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="false"></div>
 <br/>
 </section>
 
@@ -182,19 +175,16 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<p align=center>
-  <b>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------QR code---------------------------------------------------------------------------------------------------------------------------------------------------------------------------</b>
+<p align=center style="background-color: rgb(184, 204, 216); width: 100%; height: 20px;">
+<b>QR Code</b>
 </p>
 <br/>
 <p align=right>סרקו את הקוד</p>
 <br/>
-<img src="ORcode.JPG" style="width: 100px;height: 100px;">
+<img src="ORcode.JPG" style="width: 150px;height: 150px;">
+<br/>
+<br/>
+<br/>
 <br/>
 </section>
 
@@ -204,10 +194,46 @@
 <br/>
 <br/>
 <br/>
-<p align=center>
+<p align=center style="background-color:rgb(184, 204, 216);">
   <b>Answers</b>
 </p>
 <br/>
+<p align=right>1.  ההבדלים העקריים הם : </p>
+<table border="1" align="center" style="background-color: rgb(184, 204, 216);">
+  <tr style="background-color:darkcyan;">
+    <td width="25%"></td>
+    <td width="25%">web1.0</td>
+    <td width="25%">web2.0</td>
+    <td width="25%">web3.0</td>
+  </tr>
+  <tr>
+    <td width="25%">סוג דפים</td>
+    <td width="25%">הדפים הם חד כיוונים, טקסט מעוצבים, גם מבוססי פלאש לעיתים</td>
+    <td width="25%">הדפים הם דו-כיוונים בעלי וידיאו (MP4), מוסיקה(MP3),<br> פרודקאסט, פרסום אישי ועוד</td>
+    <td width="25%">דפים דו כיוונים בעלי סביבות וירטואליות, פורטלים תלת מימדים,<br> חינוך, עסקים ועוד</td>
+  </tr>
+  <tr>
+    <td width="25%">מה מאחזר מנוע החיפוש</td>
+    <td width="25%">המנועים מאחזרים תוכן מאקרו. החיפוש מהיר, אך התוצאות<br> לא מובנות לאנשים ואף לא נכונות לחלוטין</td>
+    <td width="25%">המנועים מאחזרים תגיות בעלי תוכן מיקרו. התיוג עצמו ידני <br>ובקושי מכסה משהו מ-WWW. מתייגים כאן הכל כולל </td>
+    <td width="25%">המנועים מאחזרים טקסטים עם תוכן מיקרו המתוייגים אוטומטית. התיוג מכוון<br> יותר היות ובתהליך החיפוש נפתר חלק מהמילים הנרדפות ומהדו משמעות</td>
+  </tr>
+  <tr>
+    <td width="25%">סוג תוכן</td>
+    <td width="25%">תוכן סטטי שרק מפרסם אותו ובלי נתינת יכולת לקוראים להגיד עם המפורסם</td>
+    <td width="25%">תוכן דינאמי בעל שתי דרכי תקשורת כשהמשתמש מייצר תוכן דרך הרשתות החברתיות</td>
+    <td width="25%">תוכן דינאמי בעל שתי דרכי תקשורת כשהמשתמש מייצר תוכן <br>דרך הרשתות החברתיות	תוכן דינאמי המספק חווית WEB אישית <br>ע"י בינה מלאכותית ולמידת מכונה המתאימה אישית לכל אחד</td>
+  </tr>
+</table>
+<br/>
+<br/>
+<p align=right>
+  2.	Use Case: חיפוש הערך "טוויטר": <br>
+  <br>
+  	   ב-WEB1.0: נדרש URL ספציפי למציאת מידע על טוויטר והמידע המתקבל מוצג כתוכן סטטי הנועד לקריאה בלבד. <br>
+       ב-WEB2.0: מידע המתקבל מהחיפוש הוא תוכן דינאמי המוצג כתגיות אינטרנט. <br>
+       ב-WEB3.0: מידע המתקבל מהחיפוש הוא תוכן דינאמי המוצג כטקסטים ויכיל מילים סמנטיות או שיכילו את מילות החיפוש. 
+</p>
 <br/>
 <br/>
 </section>
@@ -217,37 +243,25 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<p align=center>
+<p align=center  style="background-color: rgb(184, 204, 216);">
   <b>Contact me</b>
 </p>
 <br/>
 <br/>
-<p align=right> .ניתן ליצור קשר בעזרת מייל. אנא הכניסו את המייל ותוכן ההודעה ולבסוף לחצו על שלח. <br> .ניתן גם להוסיף אימוג'י
+<p align=right> .ניתן ליצור קשר בעזרת מייל. אנא הכניסו את המייל ותוכן ההודעה ולבסוף לחצו על שלח <br> ניתן גם להוסיף אימוג'י.
 </p>
 <form action="mailto:yaelkot@post.bgu.ac.il" method="POST" enctype="text/plain">
   <div align=right>
     <br>
-    <label align=right>:אימייל</label>
+    <label align=right>אימייל:</label>
     <br>
     <input type="email" id="email" placeholder="name@domain.com">
   </div>
   <br>
   <div align=right>
-    <label>:הודעה</label>
+    <label>הודעה:</label>
     <br>
-    <textarea id = "message" name="message's text" placeholder="הכנס את תוכן ההודעה כאן" rows = "10" cols = "100" data-emoji-picker="true"></textarea>
+    <textarea id="message" type="text" name="message's text"></textarea>
   </div>
   <div>
     <input type="submit" value="Send">
@@ -255,6 +269,12 @@
   </div>
 </form>
 </a>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 </section>
 
