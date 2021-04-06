@@ -9,6 +9,7 @@ body {
   overflow: hidden;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .toolbar a {
@@ -91,6 +92,3 @@ body {
   width: 100%;
 }
 
-/* ::-webkit-input-placeholder{
-  text-align: right;
-} */
